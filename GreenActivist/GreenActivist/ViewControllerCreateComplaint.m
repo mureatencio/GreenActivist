@@ -76,7 +76,18 @@
     
     UIImagePickerController *imgPicker = [[UIImagePickerController alloc] init];
     [imgPicker setDelegate:self];
-    [imgPicker setSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+    
+    if((UIButton *) sender == choosePhotoBtn) {
+		[imgPicker setSourceType:UIImagePickerControllerSourceTypePhotoLibrary];
+        //picker.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+	} else {
+        [imgPicker setSourceType:UIImagePickerControllerSourceTypeCamera];
+		//picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+	}
+    
+    
+    
+    
     [imgPicker setAllowsEditing:YES];
     [imgPicker setModalPresentationStyle:UIModalPresentationCurrentContext];
     

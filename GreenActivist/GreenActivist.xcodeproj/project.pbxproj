@@ -63,11 +63,11 @@
 		846832E917DF2BF000330AFB /* select_down.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832BF17DF2BF000330AFB /* select_down.png */; };
 		846832EA17DF2BF000330AFB /* Title_description.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832C017DF2BF000330AFB /* Title_description.png */; };
 		846832EB17DF2BF000330AFB /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832C117DF2BF000330AFB /* top.png */; };
-		846832F617DF4A3800330AFB /* frog1.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832ED17DF4A3800330AFB /* frog1.2.png */; };
-		846832F717DF4A3800330AFB /* frog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832EE17DF4A3800330AFB /* frog1.png */; };
-		846832F817DF4A3800330AFB /* frog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832EF17DF4A3800330AFB /* frog2.png */; };
-		846832F917DF4A3800330AFB /* frog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F017DF4A3800330AFB /* frog3.png */; };
-		846832FA17DF4A3800330AFB /* frog4.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F117DF4A3800330AFB /* frog4.png */; };
+		846832F617DF4A3800330AFB /* frog1.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832ED17DF4A3800330AFB /* frog1.png */; };
+		846832F717DF4A3800330AFB /* frog2.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832EE17DF4A3800330AFB /* frog2.png */; };
+		846832F817DF4A3800330AFB /* frog3.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832EF17DF4A3800330AFB /* frog3.png */; };
+		846832F917DF4A3800330AFB /* frog4.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F017DF4A3800330AFB /* frog4.png */; };
+		846832FA17DF4A3800330AFB /* frog5.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F117DF4A3800330AFB /* frog5.png */; };
 		846832FB17DF4A3800330AFB /* turtle1.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F217DF4A3800330AFB /* turtle1.png */; };
 		846832FC17DF4A3800330AFB /* turtle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F317DF4A3800330AFB /* turtle2.png */; };
 		846832FD17DF4A3800330AFB /* turtle3.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F417DF4A3800330AFB /* turtle3.png */; };
@@ -156,11 +156,11 @@
 		846832BF17DF2BF000330AFB /* select_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select_down.png; sourceTree = "<group>"; };
 		846832C017DF2BF000330AFB /* Title_description.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_description.png; sourceTree = "<group>"; };
 		846832C117DF2BF000330AFB /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
-		846832ED17DF4A3800330AFB /* frog1.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog1.2.png; sourceTree = "<group>"; };
-		846832EE17DF4A3800330AFB /* frog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog1.png; sourceTree = "<group>"; };
-		846832EF17DF4A3800330AFB /* frog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog2.png; sourceTree = "<group>"; };
-		846832F017DF4A3800330AFB /* frog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog3.png; sourceTree = "<group>"; };
-		846832F117DF4A3800330AFB /* frog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog4.png; sourceTree = "<group>"; };
+		846832ED17DF4A3800330AFB /* frog1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog1.png; sourceTree = "<group>"; };
+		846832EE17DF4A3800330AFB /* frog2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog2.png; sourceTree = "<group>"; };
+		846832EF17DF4A3800330AFB /* frog3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog3.png; sourceTree = "<group>"; };
+		846832F017DF4A3800330AFB /* frog4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog4.png; sourceTree = "<group>"; };
+		846832F117DF4A3800330AFB /* frog5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog5.png; sourceTree = "<group>"; };
 		846832F217DF4A3800330AFB /* turtle1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle1.png; sourceTree = "<group>"; };
 		846832F317DF4A3800330AFB /* turtle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle2.png; sourceTree = "<group>"; };
 		846832F417DF4A3800330AFB /* turtle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle3.png; sourceTree = "<group>"; };
@@ -345,11 +345,11 @@
 		846832EC17DF4A3600330AFB /* animaciones */ = {
 			isa = PBXGroup;
 			children = (
-				846832ED17DF4A3800330AFB /* frog1.2.png */,
-				846832EE17DF4A3800330AFB /* frog1.png */,
-				846832EF17DF4A3800330AFB /* frog2.png */,
-				846832F017DF4A3800330AFB /* frog3.png */,
-				846832F117DF4A3800330AFB /* frog4.png */,
+				846832ED17DF4A3800330AFB /* frog1.png */,
+				846832EE17DF4A3800330AFB /* frog2.png */,
+				846832EF17DF4A3800330AFB /* frog3.png */,
+				846832F017DF4A3800330AFB /* frog4.png */,
+				846832F117DF4A3800330AFB /* frog5.png */,
 				846832F217DF4A3800330AFB /* turtle1.png */,
 				846832F317DF4A3800330AFB /* turtle2.png */,
 				846832F417DF4A3800330AFB /* turtle3.png */,
@@ -586,11 +586,11 @@
 				846832E917DF2BF000330AFB /* select_down.png in Resources */,
 				846832EA17DF2BF000330AFB /* Title_description.png in Resources */,
 				846832EB17DF2BF000330AFB /* top.png in Resources */,
-				846832F617DF4A3800330AFB /* frog1.2.png in Resources */,
-				846832F717DF4A3800330AFB /* frog1.png in Resources */,
-				846832F817DF4A3800330AFB /* frog2.png in Resources */,
-				846832F917DF4A3800330AFB /* frog3.png in Resources */,
-				846832FA17DF4A3800330AFB /* frog4.png in Resources */,
+				846832F617DF4A3800330AFB /* frog1.png in Resources */,
+				846832F717DF4A3800330AFB /* frog2.png in Resources */,
+				846832F817DF4A3800330AFB /* frog3.png in Resources */,
+				846832F917DF4A3800330AFB /* frog4.png in Resources */,
+				846832FA17DF4A3800330AFB /* frog5.png in Resources */,
 				846832FB17DF4A3800330AFB /* turtle1.png in Resources */,
 				846832FC17DF4A3800330AFB /* turtle2.png in Resources */,
 				846832FD17DF4A3800330AFB /* turtle3.png in Resources */,
@@ -713,6 +713,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GreenActivist/GreenActivist-Prefix.pch";
 				INFOPLIST_FILE = "GreenActivist/GreenActivist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -728,6 +729,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GreenActivist/GreenActivist-Prefix.pch";
 				INFOPLIST_FILE = "GreenActivist/GreenActivist-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

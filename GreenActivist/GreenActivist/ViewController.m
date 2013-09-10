@@ -41,6 +41,7 @@
     avatar.animationImages = animacionMono;
     avatar.animationDuration = 1.0;
     avatar.animationRepeatCount = 0;
+    [avatar startAnimating];
     
 }
 
