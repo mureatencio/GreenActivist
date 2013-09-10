@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8468327E17DEFA4900330AFB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468327D17DEFA4900330AFB /* FacebookSDK.framework */; };
 		BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127C17DE8E5A008DA61B /* UIKit.framework */; };
 		BF97127F17DE8E5B008DA61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127E17DE8E5B008DA61B /* Foundation.framework */; };
 		BF97128117DE8E5B008DA61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97128017DE8E5B008DA61B /* CoreGraphics.framework */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8468327D17DEFA4900330AFB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		BF97127917DE8E5A008DA61B /* GreenActivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenActivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97127C17DE8E5A008DA61B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF97127E17DE8E5B008DA61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +79,7 @@
 				BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */,
 				BF97127F17DE8E5B008DA61B /* Foundation.framework in Frameworks */,
 				BF9712A517DE9050008DA61B /* Parse.framework in Frameworks */,
+				8468327E17DEFA4900330AFB /* FacebookSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +106,7 @@
 		BF97127B17DE8E5A008DA61B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8468327D17DEFA4900330AFB /* FacebookSDK.framework */,
 				BF9712B417DE912F008DA61B /* SystemConfiguration.framework */,
 				BF9712B217DE911A008DA61B /* StoreKit.framework */,
 				BF9712B017DE9105008DA61B /* Security.framework */,
@@ -372,6 +376,7 @@
 				BF97129E17DE8E5B008DA61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
