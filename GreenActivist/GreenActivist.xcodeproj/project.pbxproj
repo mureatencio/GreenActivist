@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8468327E17DEFA4900330AFB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468327D17DEFA4900330AFB /* FacebookSDK.framework */; };
+		8468328717DF10D200330AFB /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8468328017DF093B00330AFB /* LoginViewController.h */; };
+		8468328817DF10D200330AFB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468328117DF093B00330AFB /* LoginViewController.m */; };
+		8468328917DF110D00330AFB /* UserDetailsViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8468328417DF095600330AFB /* UserDetailsViewController.h */; };
+		8468328A17DF110D00330AFB /* UserDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468328517DF095600330AFB /* UserDetailsViewController.m */; };
+		8468328B17DF110D00330AFB /* UserDetailsViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = 8468328617DF095600330AFB /* UserDetailsViewController.xib */; };
+		8468328D17DF1B8300330AFB /* fondo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8468328C17DF1B8300330AFB /* fondo.jpg */; };
 		BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127C17DE8E5A008DA61B /* UIKit.framework */; };
 		BF97127F17DE8E5B008DA61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127E17DE8E5B008DA61B /* Foundation.framework */; };
 		BF97128117DE8E5B008DA61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97128017DE8E5B008DA61B /* CoreGraphics.framework */; };
@@ -35,6 +41,13 @@
 
 /* Begin PBXFileReference section */
 		8468327D17DEFA4900330AFB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		8468328017DF093B00330AFB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		8468328117DF093B00330AFB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		8468328317DF095600330AFB /* TableHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableHeaderView.xib; sourceTree = "<group>"; };
+		8468328417DF095600330AFB /* UserDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDetailsViewController.h; sourceTree = "<group>"; };
+		8468328517DF095600330AFB /* UserDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDetailsViewController.m; sourceTree = "<group>"; };
+		8468328617DF095600330AFB /* UserDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsViewController.xib; sourceTree = "<group>"; };
+		8468328C17DF1B8300330AFB /* fondo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fondo.jpg; sourceTree = "<group>"; };
 		BF97127917DE8E5A008DA61B /* GreenActivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenActivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97127C17DE8E5A008DA61B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF97127E17DE8E5B008DA61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +105,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8468327F17DF08B600330AFB /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8468328017DF093B00330AFB /* LoginViewController.h */,
+				8468328117DF093B00330AFB /* LoginViewController.m */,
+				8468328317DF095600330AFB /* TableHeaderView.xib */,
+				8468328417DF095600330AFB /* UserDetailsViewController.h */,
+				8468328517DF095600330AFB /* UserDetailsViewController.m */,
+				8468328617DF095600330AFB /* UserDetailsViewController.xib */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
 		BF97127017DE8E5A008DA61B = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +159,7 @@
 		BF97128217DE8E5B008DA61B /* GreenActivist */ = {
 			isa = PBXGroup;
 			children = (
+				8468327F17DF08B600330AFB /* Login */,
 				BF97129417DE8E5B008DA61B /* MainStoryboard.storyboard */,
 				BF9712A317DE8F06008DA61B /* Imagenes */,
 				BF9712A217DE8EDD008DA61B /* Vistas */,
@@ -178,6 +205,7 @@
 		BF9712A317DE8F06008DA61B /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				8468328C17DF1B8300330AFB /* fondo.jpg */,
 			);
 			name = Imagenes;
 			sourceTree = "<group>";
@@ -265,6 +293,7 @@
 				BF97129117DE8E5B008DA61B /* Default@2x.png in Resources */,
 				BF97129317DE8E5B008DA61B /* Default-568h@2x.png in Resources */,
 				BF97129617DE8E5B008DA61B /* MainStoryboard.storyboard in Resources */,
+				8468328D17DF1B8300330AFB /* fondo.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +304,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8468328917DF110D00330AFB /* UserDetailsViewController.h in Sources */,
+				8468328A17DF110D00330AFB /* UserDetailsViewController.m in Sources */,
+				8468328B17DF110D00330AFB /* UserDetailsViewController.xib in Sources */,
+				8468328717DF10D200330AFB /* LoginViewController.h in Sources */,
+				8468328817DF10D200330AFB /* LoginViewController.m in Sources */,
 				BF97128917DE8E5B008DA61B /* main.m in Sources */,
 				BF97128D17DE8E5B008DA61B /* AppDelegate.m in Sources */,
 				BF97129917DE8E5B008DA61B /* ViewController.m in Sources */,
