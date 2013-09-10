@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7235B58617DEC3CA000B5F4A /* DenunciasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7235B58517DEC3CA000B5F4A /* DenunciasController.m */; };
 		BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127C17DE8E5A008DA61B /* UIKit.framework */; };
 		BF97127F17DE8E5B008DA61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127E17DE8E5B008DA61B /* Foundation.framework */; };
 		BF97128117DE8E5B008DA61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97128017DE8E5B008DA61B /* CoreGraphics.framework */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7235B58417DEC3CA000B5F4A /* DenunciasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DenunciasController.h; sourceTree = "<group>"; };
+		7235B58517DEC3CA000B5F4A /* DenunciasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DenunciasController.m; sourceTree = "<group>"; };
 		BF97127917DE8E5A008DA61B /* GreenActivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenActivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97127C17DE8E5A008DA61B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF97127E17DE8E5B008DA61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -160,6 +163,8 @@
 			children = (
 				BF97129717DE8E5B008DA61B /* ViewController.h */,
 				BF97129817DE8E5B008DA61B /* ViewController.m */,
+				7235B58417DEC3CA000B5F4A /* DenunciasController.h */,
+				7235B58517DEC3CA000B5F4A /* DenunciasController.m */,
 			);
 			name = Vistas;
 			sourceTree = "<group>";
@@ -240,6 +245,7 @@
 				BF97128917DE8E5B008DA61B /* main.m in Sources */,
 				BF97128D17DE8E5B008DA61B /* AppDelegate.m in Sources */,
 				BF97129917DE8E5B008DA61B /* ViewController.m in Sources */,
+				7235B58617DEC3CA000B5F4A /* DenunciasController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +378,7 @@
 				BF97129E17DE8E5B008DA61B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
