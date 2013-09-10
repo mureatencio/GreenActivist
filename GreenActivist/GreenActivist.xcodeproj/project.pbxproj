@@ -72,15 +72,16 @@
 		846832FC17DF4A3800330AFB /* turtle2.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F317DF4A3800330AFB /* turtle2.png */; };
 		846832FD17DF4A3800330AFB /* turtle3.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F417DF4A3800330AFB /* turtle3.png */; };
 		846832FE17DF4A3800330AFB /* turtle4.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F517DF4A3800330AFB /* turtle4.png */; };
+		BF2AC93117DF7F2A00529B6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC92F17DF7F2A00529B6D /* Default.png */; };
+		BF2AC93217DF7F2A00529B6D /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC93017DF7F2A00529B6D /* appicon.png */; };
+		BF2AC93517DF7FCE00529B6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC93317DF7FCE00529B6D /* Default-568h@2x.png */; };
+		BF2AC93617DF7FCE00529B6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC93417DF7FCE00529B6D /* Default@2x.png */; };
 		BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127C17DE8E5A008DA61B /* UIKit.framework */; };
 		BF97127F17DE8E5B008DA61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127E17DE8E5B008DA61B /* Foundation.framework */; };
 		BF97128117DE8E5B008DA61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97128017DE8E5B008DA61B /* CoreGraphics.framework */; };
 		BF97128717DE8E5B008DA61B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF97128517DE8E5B008DA61B /* InfoPlist.strings */; };
 		BF97128917DE8E5B008DA61B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97128817DE8E5B008DA61B /* main.m */; };
 		BF97128D17DE8E5B008DA61B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97128C17DE8E5B008DA61B /* AppDelegate.m */; };
-		BF97128F17DE8E5B008DA61B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF97128E17DE8E5B008DA61B /* Default.png */; };
-		BF97129117DE8E5B008DA61B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF97129017DE8E5B008DA61B /* Default@2x.png */; };
-		BF97129317DE8E5B008DA61B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF97129217DE8E5B008DA61B /* Default-568h@2x.png */; };
 		BF97129617DE8E5B008DA61B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF97129417DE8E5B008DA61B /* MainStoryboard.storyboard */; };
 		BF97129917DE8E5B008DA61B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF97129817DE8E5B008DA61B /* ViewController.m */; };
 		BF9712A017DE8E9C008DA61B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97129F17DE8E9C008DA61B /* CoreLocation.framework */; };
@@ -165,6 +166,10 @@
 		846832F317DF4A3800330AFB /* turtle2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle2.png; sourceTree = "<group>"; };
 		846832F417DF4A3800330AFB /* turtle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle3.png; sourceTree = "<group>"; };
 		846832F517DF4A3800330AFB /* turtle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle4.png; sourceTree = "<group>"; };
+		BF2AC92F17DF7F2A00529B6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BF2AC93017DF7F2A00529B6D /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
+		BF2AC93317DF7FCE00529B6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BF2AC93417DF7FCE00529B6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF97127917DE8E5A008DA61B /* GreenActivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenActivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97127C17DE8E5A008DA61B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF97127E17DE8E5B008DA61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -175,9 +180,6 @@
 		BF97128A17DE8E5B008DA61B /* GreenActivist-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GreenActivist-Prefix.pch"; sourceTree = "<group>"; };
 		BF97128B17DE8E5B008DA61B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF97128C17DE8E5B008DA61B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BF97128E17DE8E5B008DA61B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BF97129017DE8E5B008DA61B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		BF97129217DE8E5B008DA61B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BF97129517DE8E5B008DA61B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		BF97129717DE8E5B008DA61B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BF97129817DE8E5B008DA61B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -412,13 +414,14 @@
 		BF97128317DE8E5B008DA61B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF2AC93317DF7FCE00529B6D /* Default-568h@2x.png */,
+				BF2AC93417DF7FCE00529B6D /* Default@2x.png */,
+				BF2AC92F17DF7F2A00529B6D /* Default.png */,
+				BF2AC93017DF7F2A00529B6D /* appicon.png */,
 				BF97128417DE8E5B008DA61B /* GreenActivist-Info.plist */,
 				BF97128517DE8E5B008DA61B /* InfoPlist.strings */,
 				BF97128817DE8E5B008DA61B /* main.m */,
 				BF97128A17DE8E5B008DA61B /* GreenActivist-Prefix.pch */,
-				BF97128E17DE8E5B008DA61B /* Default.png */,
-				BF97129017DE8E5B008DA61B /* Default@2x.png */,
-				BF97129217DE8E5B008DA61B /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -537,9 +540,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF97128717DE8E5B008DA61B /* InfoPlist.strings in Resources */,
-				BF97128F17DE8E5B008DA61B /* Default.png in Resources */,
-				BF97129117DE8E5B008DA61B /* Default@2x.png in Resources */,
-				BF97129317DE8E5B008DA61B /* Default-568h@2x.png in Resources */,
 				BF97129617DE8E5B008DA61B /* MainStoryboard.storyboard in Resources */,
 				8468328D17DF1B8300330AFB /* fondo.jpg in Resources */,
 				8468328F17DF299B00330AFB /* connect_face.png in Resources */,
@@ -595,6 +595,10 @@
 				846832FC17DF4A3800330AFB /* turtle2.png in Resources */,
 				846832FD17DF4A3800330AFB /* turtle3.png in Resources */,
 				846832FE17DF4A3800330AFB /* turtle4.png in Resources */,
+				BF2AC93117DF7F2A00529B6D /* Default.png in Resources */,
+				BF2AC93217DF7F2A00529B6D /* appicon.png in Resources */,
+				BF2AC93517DF7FCE00529B6D /* Default-568h@2x.png in Resources */,
+				BF2AC93617DF7FCE00529B6D /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,7 +717,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GreenActivist/GreenActivist-Prefix.pch";
 				INFOPLIST_FILE = "GreenActivist/GreenActivist-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -729,7 +733,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GreenActivist/GreenActivist-Prefix.pch";
 				INFOPLIST_FILE = "GreenActivist/GreenActivist-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

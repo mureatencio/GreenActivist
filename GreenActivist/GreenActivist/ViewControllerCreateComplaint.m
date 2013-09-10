@@ -9,6 +9,7 @@
 #import "ViewControllerCreateComplaint.h"
 #import "AppDelegate.h"
 #import "ComunicacionParse.h"
+#import <Parse/Parse.h>
 
 @interface ViewControllerCreateComplaint ()
 
@@ -129,6 +130,74 @@
    ComunicacionParse *Parse = [[ComunicacionParse alloc] init];
     [Parse AgregarDenuncia:titulo Descripcion:description Imagen:complaintImage Cordenada_X:coordinateX Cordenada_Y:coordinateY Institucion:autoridad];
     
+    FBRequest *request = [FBRequest requestForMe];
+    [request startWithCompletionHandler:^(FBRequestConnection *connection, id result, NSError *error) {
+        // handle response
+        if (!error) {
+            // Parse the data received
+            // This function will invoke the Feed Dialog to post to a user's Timeline and News Feed
+            // It will attemnt to use the Facebook Native Share dialog
+            // If that's not supported we'll fall back to the web based dialog.
+            
+            // Prepare the native share dialog parameters
+            FBShareDialogParams *shareParams = [[FBShareDialogParams alloc] init];
+            //shareParams.link = [NSURL URLWithString:linkURL];
+            shareParams.name = @"Checkout my Friend Smash greatness!";
+            shareParams.caption= @"Come smash me back!";
+            
+            //shareParams.picture= [NSURL URLWithString:complaintImage];
+            //shareParams.description =@"sdakjhasdkjhasdkjhasdkjhasdkjhasdkjhasdkjh";
+            //[NSString stringWithFormat:@"I just smashed %d friends! Can you beat my score?", nScore];
+            
+            
+            if ([FBDialogs canPresentShareDialogWithParams:shareParams]){
+                
+                [FBDialogs presentShareDialogWithParams:shareParams
+                                            clientState:nil
+                                                handler:^(FBAppCall *call, NSDictionary *results, NSError *error) {
+                                                    if(error) {
+                                                        NSLog(@"Error publishing story.");
+                                                    } else if (results[@"completionGesture"] && [results[@"completionGesture"] isEqualToString:@"cancel"]) {
+                                                        NSLog(@"User canceled story publishing.");
+                                                    } else {
+                                                        NSLog(@"Story published.");
+                                                    }
+                                                }];
+                
+            }else {
+                
+                // Prepare the web dialog parameters
+                NSDictionary *params = @{
+                                         @"name" : shareParams.name,
+                                         @"caption" : shareParams.caption
+                                         };
+                
+                // Invoke the dialog
+                [FBWebDialogs presentFeedDialogModallyWithSession:nil
+                                                       parameters:params
+                                                          handler:
+                 ^(FBWebDialogResult result, NSURL *resultURL, NSError *error) {
+                     if (error) {
+                         NSLog(@"Error publishing story.");
+                     } else {
+                         if (result == FBWebDialogResultDialogNotCompleted) {
+                             NSLog(@"User canceled story publishing.");
+                         } else {
+                             NSLog(@"Story published.");
+                         }
+                     }}];
+            }
+            
+        } else if ([[[[error userInfo] objectForKey:@"error"] objectForKey:@"type"]
+                    isEqualToString: @"OAuthException"]) { // Since the request failed, we can check if it was due to an invalid session
+            NSLog(@"The facebook session was invalidated");
+            
+        } else {
+            NSLog(@"Some other error: %@", error);
+        }
+    }];
+    
+
 }
 
 //coloca la imagen seleccionada en el uiimageview y cierra el selector.
