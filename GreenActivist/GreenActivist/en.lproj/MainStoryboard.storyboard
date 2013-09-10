@@ -16,9 +16,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="mzC-Aq-oq3">
-                                <rect key="frame" x="267" y="765" width="235" height="68"/>
+                                <rect key="frame" x="283" y="719" width="202" height="56"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="complaints_up.png">
+                                <state key="normal" image="complaints_up (1).png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -30,9 +30,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="FYc-Da-ftL">
-                                <rect key="frame" x="266" y="841" width="235" height="68"/>
+                                <rect key="frame" x="283" y="791" width="201" height="60"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" image="activism_up.png">
+                                <state key="normal" image="activism_up (1).png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -43,17 +43,39 @@
                                     <segue destination="dSa-gm-XaR" kind="modal" id="dRm-jY-cbF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sqc-ji-80f">
+                                <rect key="frame" x="283" y="864" width="202" height="62"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" image="conflict-zones_up.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YU7-Tp-7Zt" kind="modal" id="LMc-SE-shh"/>
+                                </connections>
+                            </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mLO-Y7-CPG">
-                                <rect key="frame" x="238" y="166" width="363" height="21"/>
+                                <rect key="frame" x="203" y="163" width="363" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="top.png" id="wEN-Ya-7k9">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="128"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" id="Aji-lk-uDD">
-                                <rect key="frame" x="179" y="229" width="480" height="442"/>
+                                <rect key="frame" x="143" y="230" width="480" height="442"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="level.png" id="Ufe-Py-bN1">
+                                <rect key="frame" x="37" y="30" width="210" height="66"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="pts_up.png" id="z1V-6m-A3C">
+                                <rect key="frame" x="528" y="40" width="186" height="47"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -79,7 +101,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="logo_whitw.png" id="e97-uv-OC2">
-                                <rect key="frame" x="114" y="437" width="516" height="100"/>
+                                <rect key="frame" x="126" y="350" width="516" height="100"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="connect_face.png" id="4Vz-gu-HMo">
                                 <rect key="frame" x="266" y="712" width="236" height="46"/>
@@ -147,17 +169,18 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="ahm-nf-flj">
-                                <rect key="frame" x="0.0" y="83" width="768" height="820"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <rect key="frame" x="0.0" y="83" width="768" height="837"/>
+                                <color key="backgroundColor" red="0.16078431904315948" green="0.73725491762161255" blue="0.42352944612503052" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="separatorColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="2ic-kJ-Sfw" id="R6G-Iy-KFs"/>
                                     <outlet property="delegate" destination="2ic-kJ-Sfw" id="zaE-5V-Wqc"/>
                                 </connections>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="3yP-Mm-2VL">
-                                <rect key="frame" x="326" y="941" width="116" height="44"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="3yP-Mm-2VL">
+                                <rect key="frame" x="500" y="914" width="279" height="98"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Kick Off Idea">
+                                <state key="normal" image="create_up.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -182,10 +205,10 @@
                                     <segue destination="pnJ-v0-0jw" kind="modal" id="6Sk-Sn-XGB"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="MPA-Tg-sOS">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="MPA-Tg-sOS">
                                 <rect key="frame" x="675" y="20" width="73" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" image="refresh.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -285,7 +308,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="photo_up.png" id="UPF-qy-bhs">
-                                <rect key="frame" x="0.0" y="912" width="256" height="92"/>
+                                <rect key="frame" x="0.0" y="914" width="256" height="90"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="CwO-Ux-G0Z">
                                 <rect key="frame" x="0.0" y="912" width="256" height="92"/>
@@ -329,7 +352,8 @@
                             </imageView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fbq-fg-aBg">
                                 <rect key="frame" x="0.0" y="84" width="768" height="830"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.16078431900000001" green="0.73725491759999995" blue="0.42352944609999998" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="separatorColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="eac-E5-qyq" id="oHf-HZ-gM9"/>
                                     <outlet property="delegate" destination="eac-E5-qyq" id="YOt-Cf-9FQ"/>
@@ -338,7 +362,7 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Nqo-TB-9hr">
                                 <rect key="frame" x="306" y="940" width="156" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Publish Complaint">
+                                <state key="normal" image="create_up.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -363,10 +387,10 @@
                                     <segue destination="pnJ-v0-0jw" kind="modal" id="yPv-g5-FKF"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="8uE-MX-evj">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="8uE-MX-evj">
                                 <rect key="frame" x="652" y="20" width="96" height="44"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                <state key="normal" title="Actualizar">
+                                <state key="normal" image="refresh.png">
                                     <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -525,20 +549,72 @@
             </objects>
             <point key="canvasLocation" x="1067" y="-1848"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="pYR-0Z-dQJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FLG-Ov-4WM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="" id="YU7-Tp-7Zt" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mL2-yU-qg6">
+                        <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="fondo.jpg" id="ONh-Tk-a6P">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Conflict Zones" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mwb-FP-H2n">
+                                <rect key="frame" x="238" y="166" width="363" height="31"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="top.png" id="hQJ-mn-pCc">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="128"/>
+                            </imageView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="0dg-GJ-P8Z">
+                                <rect key="frame" x="20" y="256" width="737" height="734"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="sdU-7v-aFZ">
+                                <rect key="frame" x="20" y="29" width="73" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Button" image="back_up.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="pnJ-v0-0jw" kind="modal" id="54U-LE-Qj0"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-783" y="-26"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Title_description.png" width="1184" height="650"/>
-        <image name="activism_up.png" width="454" height="128"/>
+        <image name="activism_up (1).png" width="184" height="52"/>
         <image name="back_up.png" width="195" height="105"/>
-        <image name="complaints_up.png" width="454" height="124"/>
+        <image name="complaints_up (1).png" width="184" height="52"/>
+        <image name="conflict-zones_up.png" width="184" height="53"/>
         <image name="connect_face.png" width="740" height="139"/>
         <image name="create_proyect_top.png" width="1542" height="256"/>
+        <image name="create_up.png" width="258" height="83"/>
         <image name="enter.png" width="631" height="146"/>
         <image name="fondo.jpg" width="1536" height="2048"/>
         <image name="galery_up.png" width="509" height="169"/>
         <image name="gps_icon.png" width="102" height="127"/>
+        <image name="level.png" width="408" height="162"/>
         <image name="logo_whitw.png" width="1092" height="240"/>
         <image name="photo_up.png" width="509" height="169"/>
+        <image name="pts_up.png" width="272" height="76"/>
+        <image name="refresh.png" width="64" height="60"/>
         <image name="share_up.png" width="509" height="169"/>
         <image name="top.png" width="1535" height="256"/>
         <image name="top_complaints.png" width="1535" height="256"/>
@@ -608,8 +684,8 @@
         <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="7A0-J0-cd9"/>
-        <segue reference="gzk-Et-QE3"/>
-        <segue reference="6Sk-Sn-XGB"/>
+        <segue reference="Gjz-Gc-AzV"/>
+        <segue reference="LAV-EO-LML"/>
+        <segue reference="dRm-jY-cbF"/>
     </inferredMetricsTieBreakers>
 </document>
