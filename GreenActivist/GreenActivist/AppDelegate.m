@@ -17,11 +17,23 @@
     //Conexión con Parse
     [Parse setApplicationId:@"tBD1gki05mU4U58HRZY0Drolk7UmF2UjIzM2BmGw"
                   clientKey:@"DsOVn8eTBsQsWqolOwkN2saPdXAntbsErW8e0WTu"];
+    
+    [PFFacebookUtils initializeFacebook];
+    
     //To track statistics around application opens
     [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     
     return YES;
+}
+
+// ****************************************************************************
+// App switching methods to support Facebook Single Sign-On.
+// ****************************************************************************
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation {
+    NSLog(@"handled");
+    
+    return [PFFacebookUtils handleOpenURL:url];
 }
 							
 - (void)applicationWillResignActive:(UIApplication *)application
