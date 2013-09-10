@@ -14,6 +14,8 @@
 
 @implementation ViewController
 
+@synthesize avatar;
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -25,6 +27,20 @@
     [testObject setObject:@"bar" forKey:@"foo"];
     [testObject save];
     */
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    
+    self.labelName.text = [prefs stringForKey:@"UserName"];
+    
+    NSArray *animacionMono = [NSArray arrayWithObjects:
+                              [UIImage imageNamed:@"frog1.png"],
+                              [UIImage imageNamed:@"frog2.png"],
+                              [UIImage imageNamed:@"frog3.png"],
+                              [UIImage imageNamed:@"frog4.png"],
+                              [UIImage imageNamed:@"frog5.png"],
+                              nil];
+    avatar.animationImages = animacionMono;
+    avatar.animationDuration = 1.0;
+    avatar.animationRepeatCount = 0;
     
 }
 

@@ -10,5 +10,7 @@
 #import <Parse/Parse.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *labelName;
+@property (weak, nonatomic) IBOutlet UIImageView *avatar;
 
 @end

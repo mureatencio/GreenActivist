@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GreenActivist/LoginViewController.m"
-         timestampString = "400495836.442876"
+         timestampString = "400500574.446026"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "57"
-         endingLineNumber = "57"
+         startingLineNumber = "113"
+         endingLineNumber = "113"
          landmarkName = "-loginButtonTouchHandler:"
          landmarkType = "5">
       </FileBreakpoint>
