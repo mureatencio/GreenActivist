@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72F73F0317DF4D8900E766DA /* DenunciasController.h in Sources */ = {isa = PBXBuildFile; fileRef = 72F73F0117DF4D1200E766DA /* DenunciasController.h */; };
+		72F73F0417DF4D8900E766DA /* DenunciasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F73F0217DF4D1200E766DA /* DenunciasController.m */; };
+		72F73F0517DF4D8900E766DA /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = BF97128B17DE8E5B008DA61B /* AppDelegate.h */; };
+		72F73F0817DF569D00E766DA /* ComunicacionParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F73F0717DF569D00E766DA /* ComunicacionParse.m */; };
+		72F73F0C17DF5DE700E766DA /* IdeasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F73F0B17DF5DE700E766DA /* IdeasController.m */; };
 		8468327E17DEFA4900330AFB /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8468327D17DEFA4900330AFB /* FacebookSDK.framework */; };
 		8468328717DF10D200330AFB /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 8468328017DF093B00330AFB /* LoginViewController.h */; };
 		8468328817DF10D200330AFB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8468328117DF093B00330AFB /* LoginViewController.m */; };
@@ -93,6 +98,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		72F73F0117DF4D1200E766DA /* DenunciasController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DenunciasController.h; sourceTree = "<group>"; };
+		72F73F0217DF4D1200E766DA /* DenunciasController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DenunciasController.m; sourceTree = "<group>"; };
+		72F73F0617DF569D00E766DA /* ComunicacionParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComunicacionParse.h; sourceTree = "<group>"; };
+		72F73F0717DF569D00E766DA /* ComunicacionParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComunicacionParse.m; sourceTree = "<group>"; };
+		72F73F0A17DF5DE700E766DA /* IdeasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IdeasController.h; sourceTree = "<group>"; };
+		72F73F0B17DF5DE700E766DA /* IdeasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IdeasController.m; sourceTree = "<group>"; };
 		8468327D17DEFA4900330AFB /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 		8468328017DF093B00330AFB /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		8468328117DF093B00330AFB /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
@@ -211,6 +222,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72F73F0017DF4CBD00E766DA /* ViewComplaint */ = {
+			isa = PBXGroup;
+			children = (
+				72F73F0117DF4D1200E766DA /* DenunciasController.h */,
+				72F73F0217DF4D1200E766DA /* DenunciasController.m */,
+			);
+			name = ViewComplaint;
+			sourceTree = "<group>";
+		};
+		72F73F0917DF5D6F00E766DA /* ViewProject */ = {
+			isa = PBXGroup;
+			children = (
+				72F73F0A17DF5DE700E766DA /* IdeasController.h */,
+				72F73F0B17DF5DE700E766DA /* IdeasController.m */,
+			);
+			name = ViewProject;
+			sourceTree = "<group>";
+		};
 		8468327F17DF08B600330AFB /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +426,8 @@
 		BF9712A117DE8EBC008DA61B /* Recursos */ = {
 			isa = PBXGroup;
 			children = (
+				72F73F0617DF569D00E766DA /* ComunicacionParse.h */,
+				72F73F0717DF569D00E766DA /* ComunicacionParse.m */,
 				BF97128B17DE8E5B008DA61B /* AppDelegate.h */,
 				BF97128C17DE8E5B008DA61B /* AppDelegate.m */,
 			);
@@ -406,6 +437,8 @@
 		BF9712A217DE8EDD008DA61B /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
+				72F73F0917DF5D6F00E766DA /* ViewProject */,
+				72F73F0017DF4CBD00E766DA /* ViewComplaint */,
 				BFBCA95317DEF4E5004D75BA /* CreateComplaint */,
 				BFBCA94317DEE028004D75BA /* CreateIdea */,
 				BFBCA94217DEE01F004D75BA /* Principal */,
@@ -572,6 +605,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F73F0317DF4D8900E766DA /* DenunciasController.h in Sources */,
+				72F73F0417DF4D8900E766DA /* DenunciasController.m in Sources */,
+				72F73F0517DF4D8900E766DA /* AppDelegate.h in Sources */,
 				8468328917DF110D00330AFB /* UserDetailsViewController.h in Sources */,
 				8468328A17DF110D00330AFB /* UserDetailsViewController.m in Sources */,
 				8468328B17DF110D00330AFB /* UserDetailsViewController.xib in Sources */,
@@ -582,6 +618,8 @@
 				BF97129917DE8E5B008DA61B /* ViewController.m in Sources */,
 				BFBCA94A17DEE219004D75BA /* ViewControllerCreateIdea.m in Sources */,
 				BFBCA95617DEF51B004D75BA /* ViewControllerCreateComplaint.m in Sources */,
+				72F73F0817DF569D00E766DA /* ComunicacionParse.m in Sources */,
+				72F73F0C17DF5DE700E766DA /* IdeasController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

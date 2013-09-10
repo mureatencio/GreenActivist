@@ -8,6 +8,7 @@
 
 #import "ViewControllerCreateIdea.h"
 #import "AppDelegate.h"
+#import "ComunicacionParse.h"
 
 @interface ViewControllerCreateIdea ()
 
@@ -62,6 +63,10 @@
     description = self.descriptionTag.text;
     tittle = self.tittleTag.text;
     /* Espacio para enviar los parámetros a parse*/
+    ComunicacionParse *Parse = [[ComunicacionParse alloc] init];
+    [Parse AgregarIdea:tittle Descripcion:description Imagen:complaintImage];
+
+    
     
 }
 

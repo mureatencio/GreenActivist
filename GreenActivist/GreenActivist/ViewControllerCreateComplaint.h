@@ -25,6 +25,7 @@
 @property (nonatomic, strong) IBOutlet UIButton * takePhotoBtn;
 @property ( strong, nonatomic) CLLocationManager *manager;
 @property (strong, nonatomic) ALAssetsLibrary *library;
+@property (strong, nonatomic) IBOutlet UITextField *tittleTag;
 @property (strong, nonatomic) IBOutlet UISwitch *allowGPS;
 @property (strong) UIPopoverController *popoverImageViewController;
 @property (strong, nonatomic) IBOutlet UITextView*descriptionTag;

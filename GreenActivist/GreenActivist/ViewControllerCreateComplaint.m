@@ -8,6 +8,7 @@
 
 #import "ViewControllerCreateComplaint.h"
 #import "AppDelegate.h"
+#import "ComunicacionParse.h"
 
 @interface ViewControllerCreateComplaint ()
 
@@ -16,7 +17,7 @@
 @implementation ViewControllerCreateComplaint
 
 
-@synthesize imageView, choosePhotoBtn, takePhotoBtn, popoverImageViewController, labelX, labelY, myPickerView, itemsArray;
+@synthesize imageView, choosePhotoBtn, takePhotoBtn, popoverImageViewController, labelX, labelY, myPickerView, itemsArray, tittleTag;
 
 - (void)viewDidLoad
 {
@@ -92,6 +93,8 @@
     NSString * coordinateX;
     NSString * coordinateY;
     NSString * description;
+    NSString * titulo;
+    NSString * autoridad;
     if ([self.imageView image]!=NULL) {
         complaintImage = [self.imageView image];
     }
@@ -106,10 +109,14 @@
     description = self.descriptionTag.text;
     NSInteger row;
     row = [myPickerView selectedRowInComponent:0];
-    NSLog([itemsArray objectAtIndex:row]);
     
+    titulo = self.tittleTag.text;
+    autoridad = [itemsArray objectAtIndex:row];
     
     /* Espacio para enviar los parámetros a parse*/
+    
+   ComunicacionParse *Parse = [[ComunicacionParse alloc] init];
+    [Parse AgregarDenuncia:titulo Descripcion:description Imagen:complaintImage Cordenada_X:coordinateX Cordenada_Y:coordinateY Institucion:autoridad];
     
 }
 
