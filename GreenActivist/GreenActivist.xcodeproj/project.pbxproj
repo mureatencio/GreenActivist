@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7235B58617DEC3CA000B5F4A /* DenunciasController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7235B58517DEC3CA000B5F4A /* DenunciasController.m */; };
 		BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127C17DE8E5A008DA61B /* UIKit.framework */; };
 		BF97127F17DE8E5B008DA61B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127E17DE8E5B008DA61B /* Foundation.framework */; };
 		BF97128117DE8E5B008DA61B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97128017DE8E5B008DA61B /* CoreGraphics.framework */; };
@@ -29,11 +28,11 @@
 		BF9712B117DE9105008DA61B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9712B017DE9105008DA61B /* Security.framework */; };
 		BF9712B317DE911A008DA61B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9712B217DE911A008DA61B /* StoreKit.framework */; };
 		BF9712B517DE912F008DA61B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9712B417DE912F008DA61B /* SystemConfiguration.framework */; };
+		BFBCA94A17DEE219004D75BA /* ViewControllerCreateIdea.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBCA94917DEE219004D75BA /* ViewControllerCreateIdea.m */; };
+		BFBCA95617DEF51B004D75BA /* ViewControllerCreateComplaint.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBCA95517DEF51B004D75BA /* ViewControllerCreateComplaint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7235B58417DEC3CA000B5F4A /* DenunciasController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DenunciasController.h; sourceTree = "<group>"; };
-		7235B58517DEC3CA000B5F4A /* DenunciasController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DenunciasController.m; sourceTree = "<group>"; };
 		BF97127917DE8E5A008DA61B /* GreenActivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenActivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF97127C17DE8E5A008DA61B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BF97127E17DE8E5B008DA61B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,6 +59,10 @@
 		BF9712B017DE9105008DA61B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		BF9712B217DE911A008DA61B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BF9712B417DE912F008DA61B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BFBCA94817DEE219004D75BA /* ViewControllerCreateIdea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCreateIdea.h; sourceTree = "<group>"; };
+		BFBCA94917DEE219004D75BA /* ViewControllerCreateIdea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCreateIdea.m; sourceTree = "<group>"; };
+		BFBCA95417DEF51B004D75BA /* ViewControllerCreateComplaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCreateComplaint.h; sourceTree = "<group>"; };
+		BFBCA95517DEF51B004D75BA /* ViewControllerCreateComplaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCreateComplaint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,10 +164,9 @@
 		BF9712A217DE8EDD008DA61B /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
-				BF97129717DE8E5B008DA61B /* ViewController.h */,
-				BF97129817DE8E5B008DA61B /* ViewController.m */,
-				7235B58417DEC3CA000B5F4A /* DenunciasController.h */,
-				7235B58517DEC3CA000B5F4A /* DenunciasController.m */,
+				BFBCA95317DEF4E5004D75BA /* CreateComplaint */,
+				BFBCA94317DEE028004D75BA /* CreateIdea */,
+				BFBCA94217DEE01F004D75BA /* Principal */,
 			);
 			name = Vistas;
 			sourceTree = "<group>";
@@ -174,6 +176,33 @@
 			children = (
 			);
 			name = Imagenes;
+			sourceTree = "<group>";
+		};
+		BFBCA94217DEE01F004D75BA /* Principal */ = {
+			isa = PBXGroup;
+			children = (
+				BF97129717DE8E5B008DA61B /* ViewController.h */,
+				BF97129817DE8E5B008DA61B /* ViewController.m */,
+			);
+			name = Principal;
+			sourceTree = "<group>";
+		};
+		BFBCA94317DEE028004D75BA /* CreateIdea */ = {
+			isa = PBXGroup;
+			children = (
+				BFBCA94817DEE219004D75BA /* ViewControllerCreateIdea.h */,
+				BFBCA94917DEE219004D75BA /* ViewControllerCreateIdea.m */,
+			);
+			name = CreateIdea;
+			sourceTree = "<group>";
+		};
+		BFBCA95317DEF4E5004D75BA /* CreateComplaint */ = {
+			isa = PBXGroup;
+			children = (
+				BFBCA95417DEF51B004D75BA /* ViewControllerCreateComplaint.h */,
+				BFBCA95517DEF51B004D75BA /* ViewControllerCreateComplaint.m */,
+			);
+			name = CreateComplaint;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +274,8 @@
 				BF97128917DE8E5B008DA61B /* main.m in Sources */,
 				BF97128D17DE8E5B008DA61B /* AppDelegate.m in Sources */,
 				BF97129917DE8E5B008DA61B /* ViewController.m in Sources */,
-				7235B58617DEC3CA000B5F4A /* DenunciasController.m in Sources */,
+				BFBCA94A17DEE219004D75BA /* ViewControllerCreateIdea.m in Sources */,
+				BFBCA95617DEF51B004D75BA /* ViewControllerCreateComplaint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
