@@ -141,12 +141,12 @@
             
             // Prepare the native share dialog parameters
             FBShareDialogParams *shareParams = [[FBShareDialogParams alloc] init];
-            //shareParams.link = [NSURL URLWithString:linkURL];
+            shareParams.link = [NSURL URLWithString:@"https://itunes.apple.com/es/genre/ios/id36?mt=8"];
             shareParams.name = @"Checkout my Friend Smash greatness!";
             shareParams.caption= @"Come smash me back!";
             
             //shareParams.picture= [NSURL URLWithString:complaintImage];
-            //shareParams.description =@"sdakjhasdkjhasdkjhasdkjhasdkjhasdkjhasdkjh";
+            shareParams.description =@"sdakjhasdkjhasdkjhasdkjhasdkjhasdkjhasdkjh";
             //[NSString stringWithFormat:@"I just smashed %d friends! Can you beat my score?", nScore];
             
             

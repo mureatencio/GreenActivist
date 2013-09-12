@@ -13,6 +13,7 @@
     IBOutlet UITableView *myTableView;
     NSArray *objectArray;
 }
+@property (strong, nonatomic) IBOutlet UIButton *buttonDenuncia;
 
 - (IBAction)loadDataButton:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *buttonLoad;

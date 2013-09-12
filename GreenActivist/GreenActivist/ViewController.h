@@ -11,6 +11,7 @@
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *labelName;
+- (IBAction)cambiarAnimacion:(id)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *avatar;
-
+@property bool showTurtle;
 @end

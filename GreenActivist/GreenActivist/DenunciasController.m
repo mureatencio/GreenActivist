@@ -13,7 +13,7 @@
 @end
 
 @implementation DenunciasController
-@synthesize buttonLoad;
+@synthesize buttonLoad, buttonDenuncia;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -28,8 +28,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-
-    
 }
 
 - (IBAction)loadDataButton:(id)sender {

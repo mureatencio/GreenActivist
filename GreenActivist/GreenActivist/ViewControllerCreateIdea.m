@@ -85,13 +85,13 @@
             
             // Prepare the native share dialog parameters
             FBShareDialogParams *shareParams = [[FBShareDialogParams alloc] init];
-            //shareParams.link = [NSURL URLWithString:linkURL];
+            //shareParams.link = [NSURL URLWithString:@"http://www.facebook.com"];
             shareParams.name = @"Checkout my Friend Smash greatness!";
             shareParams.caption= @"Come smash me back!";
             
-            //shareParams.picture= [NSURL URLWithString:complaintImage];
-            //shareParams.description =@"sdakjhasdkjhasdkjhasdkjhasdkjhasdkjhasdkjh";
-            //[NSString stringWithFormat:@"I just smashed %d friends! Can you beat my score?", nScore];
+            //shareParams.picture= [NSURL URLWithString:@"http://htsargentina.info/blog/wp-content/uploads/2013/08/app_store.jpeg"];
+            shareParams.description =@"sdakjhasdkjhasdkjhasdkjhasdkjhasdkjhasdkjh";
+            [NSString stringWithFormat:@"I just smashed %d friends! Can you beat my score?", 200];
             
             
             if ([FBDialogs canPresentShareDialogWithParams:shareParams]){
@@ -111,10 +111,11 @@
             }else {
                 
                 // Prepare the web dialog parameters
-                NSDictionary *params = @{
-                                         @"name" : shareParams.name,
-                                         @"caption" : shareParams.caption
-                                         };
+                NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:
+                                                @"Nombre", @"name",
+                                                @"caption", @"caption",
+                                                @"description", @"description",
+                                                nil];
                 
                 // Invoke the dialog
                 [FBWebDialogs presentFeedDialogModallyWithSession:nil

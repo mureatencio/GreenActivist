@@ -73,7 +73,6 @@
 		846832FD17DF4A3800330AFB /* turtle3.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F417DF4A3800330AFB /* turtle3.png */; };
 		846832FE17DF4A3800330AFB /* turtle4.png in Resources */ = {isa = PBXBuildFile; fileRef = 846832F517DF4A3800330AFB /* turtle4.png */; };
 		BF2AC93117DF7F2A00529B6D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC92F17DF7F2A00529B6D /* Default.png */; };
-		BF2AC93217DF7F2A00529B6D /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC93017DF7F2A00529B6D /* appicon.png */; };
 		BF2AC93517DF7FCE00529B6D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC93317DF7FCE00529B6D /* Default-568h@2x.png */; };
 		BF2AC93617DF7FCE00529B6D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF2AC93417DF7FCE00529B6D /* Default@2x.png */; };
 		BF97127D17DE8E5B008DA61B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF97127C17DE8E5A008DA61B /* UIKit.framework */; };
@@ -96,16 +95,14 @@
 		BF9712B517DE912F008DA61B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF9712B417DE912F008DA61B /* SystemConfiguration.framework */; };
 		BFBCA94A17DEE219004D75BA /* ViewControllerCreateIdea.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBCA94917DEE219004D75BA /* ViewControllerCreateIdea.m */; };
 		BFBCA95617DEF51B004D75BA /* ViewControllerCreateComplaint.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBCA95517DEF51B004D75BA /* ViewControllerCreateComplaint.m */; };
-		BFD9D0DA17DF882900D11879 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0D817DF882900D11879 /* icon_72.png */; };
-		BFD9D0DB17DF882900D11879 /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0D917DF882900D11879 /* icon_144.png */; };
-		BFD9D0DD17DF884700D11879 /* icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0DC17DF884700D11879 /* icon_72.png */; };
-		BFD9D0DF17DF885000D11879 /* icon_144.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0DE17DF885000D11879 /* icon_144.png */; };
 		BFD9D0E117DF97C300D11879 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFD9D0E017DF97C300D11879 /* MapKit.framework */; };
 		BFD9D0E317DF985500D11879 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0E217DF985500D11879 /* refresh.png */; };
 		BFD9D0E517DF98C700D11879 /* create_up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0E417DF98C700D11879 /* create_up.png */; };
 		BFD9D0E917DF9C8A00D11879 /* conflict-zones_up.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0E617DF9C8A00D11879 /* conflict-zones_up.png */; };
 		BFD9D0EA17DF9C8A00D11879 /* complaints_up (1).png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0E717DF9C8A00D11879 /* complaints_up (1).png */; };
 		BFD9D0EB17DF9C8A00D11879 /* activism_up (1).png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0E817DF9C8A00D11879 /* activism_up (1).png */; };
+		BFD9D0ED17DFAA7900D11879 /* conflictzona_top.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD9D0EC17DFAA7900D11879 /* conflictzona_top.png */; };
+		BFD9D0F117E0E74C00D11879 /* ViewControllerActivista.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD9D0F017E0E74C00D11879 /* ViewControllerActivista.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,7 +174,6 @@
 		846832F417DF4A3800330AFB /* turtle3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle3.png; sourceTree = "<group>"; };
 		846832F517DF4A3800330AFB /* turtle4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turtle4.png; sourceTree = "<group>"; };
 		BF2AC92F17DF7F2A00529B6D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		BF2AC93017DF7F2A00529B6D /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 		BF2AC93317DF7FCE00529B6D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		BF2AC93417DF7FCE00529B6D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		BF97127917DE8E5A008DA61B /* GreenActivist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenActivist.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -207,16 +203,15 @@
 		BFBCA94917DEE219004D75BA /* ViewControllerCreateIdea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCreateIdea.m; sourceTree = "<group>"; };
 		BFBCA95417DEF51B004D75BA /* ViewControllerCreateComplaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerCreateComplaint.h; sourceTree = "<group>"; };
 		BFBCA95517DEF51B004D75BA /* ViewControllerCreateComplaint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerCreateComplaint.m; sourceTree = "<group>"; };
-		BFD9D0D817DF882900D11879 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_72.png; sourceTree = "<group>"; };
-		BFD9D0D917DF882900D11879 /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
-		BFD9D0DC17DF884700D11879 /* icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_72.png; sourceTree = "<group>"; };
-		BFD9D0DE17DF885000D11879 /* icon_144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_144.png; sourceTree = "<group>"; };
 		BFD9D0E017DF97C300D11879 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		BFD9D0E217DF985500D11879 /* refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = refresh.png; sourceTree = "<group>"; };
 		BFD9D0E417DF98C700D11879 /* create_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = create_up.png; sourceTree = "<group>"; };
 		BFD9D0E617DF9C8A00D11879 /* conflict-zones_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "conflict-zones_up.png"; sourceTree = "<group>"; };
 		BFD9D0E717DF9C8A00D11879 /* complaints_up (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "complaints_up (1).png"; sourceTree = "<group>"; };
 		BFD9D0E817DF9C8A00D11879 /* activism_up (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "activism_up (1).png"; sourceTree = "<group>"; };
+		BFD9D0EC17DFAA7900D11879 /* conflictzona_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conflictzona_top.png; sourceTree = "<group>"; };
+		BFD9D0EF17E0E74C00D11879 /* ViewControllerActivista.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerActivista.h; sourceTree = "<group>"; };
+		BFD9D0F017E0E74C00D11879 /* ViewControllerActivista.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerActivista.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -385,8 +380,6 @@
 			isa = PBXGroup;
 			children = (
 				BFD9D0E017DF97C300D11879 /* MapKit.framework */,
-				BFD9D0DE17DF885000D11879 /* icon_144.png */,
-				BFD9D0DC17DF884700D11879 /* icon_72.png */,
 				BF97128217DE8E5B008DA61B /* GreenActivist */,
 				BF97127B17DE8E5A008DA61B /* Frameworks */,
 				BF97127A17DE8E5A008DA61B /* Products */,
@@ -438,12 +431,9 @@
 		BF97128317DE8E5B008DA61B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BFD9D0D817DF882900D11879 /* icon_72.png */,
-				BFD9D0D917DF882900D11879 /* icon_144.png */,
 				BF2AC93317DF7FCE00529B6D /* Default-568h@2x.png */,
 				BF2AC93417DF7FCE00529B6D /* Default@2x.png */,
 				BF2AC92F17DF7F2A00529B6D /* Default.png */,
-				BF2AC93017DF7F2A00529B6D /* appicon.png */,
 				BF97128417DE8E5B008DA61B /* GreenActivist-Info.plist */,
 				BF97128517DE8E5B008DA61B /* InfoPlist.strings */,
 				BF97128817DE8E5B008DA61B /* main.m */,
@@ -466,6 +456,7 @@
 		BF9712A217DE8EDD008DA61B /* Vistas */ = {
 			isa = PBXGroup;
 			children = (
+				BFD9D0EE17E0E72E00D11879 /* Activism */,
 				72F73F0917DF5D6F00E766DA /* ViewProject */,
 				72F73F0017DF4CBD00E766DA /* ViewComplaint */,
 				BFBCA95317DEF4E5004D75BA /* CreateComplaint */,
@@ -483,6 +474,7 @@
 				BFD9D0E817DF9C8A00D11879 /* activism_up (1).png */,
 				BFD9D0E417DF98C700D11879 /* create_up.png */,
 				BFD9D0E217DF985500D11879 /* refresh.png */,
+				BFD9D0EC17DFAA7900D11879 /* conflictzona_top.png */,
 				846832EC17DF4A3600330AFB /* animaciones */,
 				8468329217DF2BF000330AFB /* BYND2015 */,
 				8468328E17DF299B00330AFB /* connect_face.png */,
@@ -517,6 +509,15 @@
 				BFBCA95517DEF51B004D75BA /* ViewControllerCreateComplaint.m */,
 			);
 			name = CreateComplaint;
+			sourceTree = "<group>";
+		};
+		BFD9D0EE17E0E72E00D11879 /* Activism */ = {
+			isa = PBXGroup;
+			children = (
+				BFD9D0EF17E0E74C00D11879 /* ViewControllerActivista.h */,
+				BFD9D0F017E0E74C00D11879 /* ViewControllerActivista.m */,
+			);
+			name = Activism;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -627,18 +628,14 @@
 				846832FD17DF4A3800330AFB /* turtle3.png in Resources */,
 				846832FE17DF4A3800330AFB /* turtle4.png in Resources */,
 				BF2AC93117DF7F2A00529B6D /* Default.png in Resources */,
-				BF2AC93217DF7F2A00529B6D /* appicon.png in Resources */,
 				BF2AC93517DF7FCE00529B6D /* Default-568h@2x.png in Resources */,
 				BF2AC93617DF7FCE00529B6D /* Default@2x.png in Resources */,
-				BFD9D0DA17DF882900D11879 /* icon_72.png in Resources */,
-				BFD9D0DB17DF882900D11879 /* icon_144.png in Resources */,
-				BFD9D0DD17DF884700D11879 /* icon_72.png in Resources */,
-				BFD9D0DF17DF885000D11879 /* icon_144.png in Resources */,
 				BFD9D0E317DF985500D11879 /* refresh.png in Resources */,
 				BFD9D0E517DF98C700D11879 /* create_up.png in Resources */,
 				BFD9D0E917DF9C8A00D11879 /* conflict-zones_up.png in Resources */,
 				BFD9D0EA17DF9C8A00D11879 /* complaints_up (1).png in Resources */,
 				BFD9D0EB17DF9C8A00D11879 /* activism_up (1).png in Resources */,
+				BFD9D0ED17DFAA7900D11879 /* conflictzona_top.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -664,6 +661,7 @@
 				BFBCA95617DEF51B004D75BA /* ViewControllerCreateComplaint.m in Sources */,
 				72F73F0817DF569D00E766DA /* ComunicacionParse.m in Sources */,
 				72F73F0C17DF5DE700E766DA /* IdeasController.m in Sources */,
+				BFD9D0F117E0E74C00D11879 /* ViewControllerActivista.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,7 +755,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GreenActivist/GreenActivist-Prefix.pch";
 				INFOPLIST_FILE = "GreenActivist/GreenActivist-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -773,7 +771,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GreenActivist/GreenActivist-Prefix.pch";
 				INFOPLIST_FILE = "GreenActivist/GreenActivist-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
